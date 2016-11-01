@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<style type="text/css">
+  header{
+    width: 100%;
+    background-color: rgba(231, 204, 143, 0.5);
+    line-height: 60px;
+    height: 100px;
+    text-align: center;
+        /*we could add padding maybe 5% to left and right
+      padding: 0 5%;
+        */
+
+    top:0px;
+
+  }
+
+div.img {
+    border: 1px solid #ccc;
+  
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 350px;
+    height: 350px;
+    
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: 350px;
+    
+  }
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+        nav ul{
+            list-style: none;
+            float: right;
+        
+        }
+
+        nav ul li{
+            width: 100px;
+            float: left;
+        }
+
+        nav ul li:hover{
+            background-color: #AAA;
+        }
+
+       
+        nav ul a{
+            display: block;
+            color: #222;
+            text-decoration: none;
+            line-height: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+
+       
+
+        nav ul ul{
+            display: none;
+            background:#DDD;
+        }
+
+        nav ul li:hover >ul{
+            display: block;
+        }
+
+        nav ul ul li{
+            width: 200px;
+        }
+
+        nav ul li:hover ul li:hover{
+            background:#999;
+        }
+
+
+
+
+
+   
+
+
+    
+	</style>
+</head>
+<body>
+
+<header>
+      <nav>
+        <ul>
+            <li><a href="#">Breakfast</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lunch</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dinner</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="photomenu.html">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dessert</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Snack</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+        </ul>
+      </nav>
+
+       
+
+</header>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/spagetti.jpeg">
+      <img src="images/spagetti.jpeg" alt="Spagetti" width="300" height="200">
+    </a>
+    <div class="desc">Spagetti</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/a_wrap.jpeg">
+      <img src="images/a_wrap.jpeg" alt="a wrap" width="300" height="200">
+    </a>
+    <div class="desc">A Wrap</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/greeksalas.jpeg">
+      <img src="images/greeksalas.jpeg" alt="greek salad" width="300" height="200">
+    </a>
+    <div class="desc">Greek Salad</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/somesortofpasta.jpg">
+      <img src="images/somesortofpasta.jpg" alt="pasta" width="300" height="200">
+    </a>
+    <div class="desc">Pasta</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="recipe_page.html">
+      <img src="images/Vegan-Mac-and-Cheese-Square.jpg" alt="Mac and Cheese" width="300" height="200">
+    </a>
+    <div class="desc">Mac and Cheese!!!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/SpinachPenini.jpg">
+      <img src="images/SpinachPenini.jpg" alt="Penini" width="300" height="200">
+    </a>
+    <div class="desc">Spinach Penini</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/grilled_aubergine .jpg">
+      <img src="images/grilled_aubergine .jpg" alt="grilled aubergine" width="300" height="200">
+    </a>
+    <div class="desc">Grilled aubergine</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Baked-Eggplant-Parmesan.jpg">
+      <img src="images/Baked-Eggplant-Parmesan.jpg" alt="Baked Eggplant Parmesan" width="300" height="200">
+    </a>
+    <div class="desc">Baked Eggplant Parmesan</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Black-Bean-Soup.jpg">
+      <img src="images/Black-Bean-Soup.jpg" alt="Black Bean Soup" width="300" height="200">
+    </a>
+    <div class="desc">Black Bean Soup</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Broccoli-Burgers.jpg">
+      <img src="images/Broccoli-Burgers.jpg" alt="Broccoli Burgers" width="300" height="200">
+    </a>
+    <div class="desc">Broccoli Burgers</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Chana-Masala.jpg">
+      <img src="images/Chana-Masala.jpg" alt="Chana Masala" width="300" height="200">
+    </a>
+    <div class="desc">Chana Masala</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/collard-green-wraps.jpg">
+      <img src="images/collard-green-wraps.jpg" alt="collard-green-wraps" width="300" height="200">
+    </a>
+    <div class="desc">collard green wraps</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Creamy-Tomato-Soup.jpg">
+      <img src="images/Creamy-Tomato-Soup.jpg" alt="Creamy-Tomato-Soup" width="300" height="200">
+    </a>
+    <div class="desc">Creamy Tomato Soup</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="images/Focaccia.jpg">
+      <img src="images/Focaccia.jpg" alt="Focaccia" width= "300" height="200">
+    </a>
+    <div class="desc">Focaccia</div>
+  </div>
+</div>
+
+
+
+<aside>
+  <p>"If you don’t like seeing pictures of violence towards animals being posted, you need to help stop the violence, not the pictures."" ~ Johnny Depp</p>
+
+</aside>
+
+
+
+
+
+
+
+
+</body>
+</html>

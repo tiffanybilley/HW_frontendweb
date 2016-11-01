@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Only Dropdown Nav</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul{
+            list-style: none;
+            float: right;
+
+        
+        }
+
+        nav ul li{
+            width: 100px;
+            float: left;
+        }
+
+        nav ul li:hover{
+            background-color: #AAA;
+        }
+
+       
+        nav ul a{
+            display: block;
+            color: #222;
+            text-decoration: none;
+            line-height: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+
+       
+
+        nav ul ul{
+            display: none;
+            background:#DDD;
+        }
+
+        nav ul li:hover >ul{
+            display: block;
+        }
+
+        nav ul ul li{
+            width: 200px;
+        }
+
+        nav ul li:hover ul li:hover{
+            background:#999;
+        }
+
+        header{
+            width: 1240px;
+            background-color: rgba(231, 204, 143, 0.5);
+            line-height: 100px;
+            height: 50px;
+            text-align: center;
+            position: fixed;
+            top:0px;
+
+        }
+
+        .header img{
+            float: left;
+
+        }
+
+        .header img nav {
+            display:inline-block;
+            vertical-align:middle;
+        }
+    
+
+    .background-photo{
+        width:100%;
+        height:100vh;
+        background: url(swirl.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+
+    footer{
+        width: 100%;
+        height: 25px;
+        background-color: rgba(231, 204, 143, .8);
+        line-height: 5px;
+        text-align: center;
+
+        position: fixed;
+        bottom:0px;
+    }
+
+    h1{
+        padding: 50px;
+    }
+    </style>
+</head>
+<body>
+    
+<header>
+<div class="header">
+    <a target="_blank" href="index.html">
+        <img src="images/otherLogo.png" alt="logo" width="200" height="100">
+    </a>
+
+<nav>
+        <ul>
+            <li><a href="#">Breakfast</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lunch</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dinner</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="photomenu.html">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dessert</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Snack</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+</header>
+    <div class="container clear-fix background-photo"></div>
+
+<h1>Mac and Cheese!!!</h1>
+
+
+    
+
+</body>
+
+<footer>
+    <p>"Remember you are what you eat! So dont be a chicken!"</p>
+</footer>
+
+</html>
+
+
+
+
+
+
+

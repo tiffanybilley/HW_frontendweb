@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+
+.clear-fix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    content: " ";
+    visibility: hidden;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block;
+
+}
+
+img{
+	margin-left: 50%;
+	padding-bottom: 50px;
+	height: 400px;
+	width: 500px;
+}
+
+<style type="text/css">
+
+
+div.img img {
+    width: 350px;
+    height: 550px;
+    
+
+}
+
+
+
+* {
+    box-sizing: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+    margin: center;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+	.clearfix:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	aside{
+		float: right;
+		border:1px solid #ccc;
+		height: 20%;
+		width: 25%;
+	}
+
+	h1{
+		padding: 50px;
+	}
+
+	 	header{
+            width: 1240 px;
+            background-color: rgba(231, 204, 143, 0.5);
+            line-height: 100px;
+            height: 100px;
+            text-align: center;
+          
+            top:0px;
+
+        }
+
+        nav ul{
+            list-style: none;
+            float: right;
+        
+        }
+
+        nav ul li{
+            width: 100px;
+            float: left;
+        }
+
+        nav ul li:hover{
+            background-color: #AAA;
+        }
+
+       
+        nav ul a{
+            display: block;
+            color: #222;
+            text-decoration: none;
+            line-height: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+
+       
+
+        nav ul ul{
+            display: none;
+            background:#DDD;
+        }
+
+        nav ul li:hover >ul{
+            display: block;
+        }
+
+        nav ul ul li{
+            width: 200px;
+        }
+
+        nav ul li:hover ul li:hover{
+            background:#999;
+        }
+
+
+
+	
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+        <ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="#">Breakfast</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lunch</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dinner</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="photomenu.html">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Dessert</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Snack</a>
+                <ul>
+                    <li><a href="#">5 minute meals</a></li>
+                    <li><a href="#">classics</a></li>
+                    <li><a href="#">international</a></li>
+                    <li><a href="#">cheap & cheerful</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+<h1> Vegan Mac and Cheese</h1>
+	
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="recipe_page.html">
+      <img src="images/Vegan-Mac-and-Cheese-Square.jpg" alt="Mac and Cheese" width="300" height="200">
+    </a>
+    
+  </div>
+</div>
+<aside>
+	<p>Prep Time: 10 minutes</p>
+    <p>Cook Time: 10 minutes</p>
+    <p>Description: This mac-and-cheese is to die for! But better yet, all plant based.</p>
+</aside>
+
+<button class="accordion">Behind the Magic</button>
+<div class="panel">
+  <p>
+
+	No, it isn’t cheese…even though it kind of looks like it.
+
+	Instead, it’s a creamy, flavorful alternative to the dairy stuff that will leave you richly satisfied in your decision to leave the cows alone.
+
+	I always feel bad when a non-vegan tastes vegan “cheese” for the first time. Like, how can this stuff be described except to call it a cheese alternative? We all know that, in reality, not a single one of the veg “cheese” alternatives out there tastes like real cheese.
+
+	Therefore, may I introduce you to not-real-cheese-but-still-delicious-creamy-yellow-sauce-over-macaroni??
+
+	Okay, that’s just way too cumbersome.
+
+	Whatevs. Call it “cheese.” Just give your non-veg friends a fair warning, mkay?
+
+	Vegan Mac and Cheese Blender
+
+	A few weeks ago, I discovered this recipe for vegan macaroni and cheese which was described by VegNews to be the “best on the planet.” I knew I had to give it a try, but that I couldn’t exactly follow the recipe (because, as you probably know by now, I don’t follow recipes). The original recipe calls for over 1/3 cup of vegan margarine. I just couldn’t do it. I use plenty of vegan margarine in cakes and desserts, when I eat them, but for mac and cheese? For Little M?
+
+	I just had to replace it with something else. And then, I had to add a few more items, because y’all know that’s my nature.
+
+	So, today I bring you my crazily adapted recipe and what has become my favorite vegan mac and cheese–with no refined oil.
+
+	Who knew that potatoes, carrots, onion, cashews, coconut milk, and seasonings could make such a fabulous creamy combination? And that, when mixed with macaroni, that crazy combination will make your taste buds leap for joy?
+
+
+	</p>
+</div>
+
+<button class="accordion">Ingredients</button>
+<div class="panel">
+  	<ul>
+  		
+		<li>10 ounces dried macaroni</li>
+		<li>1 cup peeled/diced yellow potatoes</li>
+		<li>1/4 cup peeled/diced carrots</li>
+		<li>1/3 cup chopped onions</li>
+		<li>3/4 cup water(preferably use liquid from pot of boiled veggies)</li>
+		<li>1/2 cup raw cashews </li>
+		<li>10 ounces dried macaroni (or about 2⅔ cups)</li>
+		<li>¼ cup coconut milk</li>
+		<li>2 tablespoons nutritional yeast flakes</li>
+		<li>1 tablespoon lemon juice</li>
+		<li>¾ to 1 teaspoon salt (or more to taste)</li>
+		<li>¼ teaspoon garlic powder</li>
+		<li>1 pinch cayenne pepper (optional)</li>
+		<li>1 pinch paprika</li>
+	
+	</ul>
+</div>
+
+<button class="accordion">Instructions</button>
+<div class="panel">
+  
+  	
+	<ol>
+		<li>Cook macaroni al dente, according to package instructions (usually requires boiling for 6-8 minutes in salted water), drain, and set aside.</li>
+		<li>Bring several cups of water to boil in a small pot. Place chopped potatoes, carrots, and onion in the boiling water, and cook for about 10 minutes, or until vegetables are tender and soft enough to blend. Cooking time will vary slightly, based on how small you have chopped your veggies.</li>
+		<li>When veggies are soft enough to blend, use a slotted spoon to remove them from cooking water, and place them in your blender. Add ¾ cup of that cooking water to your blender, along with your remaining ingredients.</li>
+		<li>Blend until smooth.</li>
+		<li>Pour sauce over your cooked macaroni noodles in a dish of your choice, taste for salt, and serve immediately.</li>
+		<li>Or, place macaroni mixture in a baking dish, sprinkle with bread crumbs, and bake at 350 degrees Fahrenheit for 15 minutes, or until crumbs are turning golden brown.</li>
+
+	</ol>
+  
+</div>
+
+<button class="accordion">Tips</button>
+<div class="panel">
+  <ol>
+  	<li>Do not over cook the paste</li>
+  	<li>You can put this dish in the oven for about 20 minutes at 350 for baked mac and cheese</li>
+  </ol>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+
+
+</body>
+
+<footer></footer>
+</html>
+
