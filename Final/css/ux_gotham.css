@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  color: gold;
+}
+
+.section1{
+  background-image: url(../assets/soft_kill.png);
+  height: 800px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  color: gold;
+  size: 100px;
+}
+p{
+  color: white;
+  size:30px;
+}
+
+
+
+[class*="bg__"] {
+  height: 740px;
+  width: 100%;
+  text-indent: -9999px;
+
+  /* fix background */
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+
+  /* Scale it nicely to the element */
+  background-size: cover;
+
+}
+
+.bg__bar {
+  background-image: url(
+    ../assets/flower.jpeg
+  );
+  /*transform: translateZ(-1px) scale(1); */
+  /*what does 2 do that one can not!!!*/
+
+}
+
+.bg__foo {
+  background-image: url(
+    ../assets/flower.png
+  );
+  /*transform: translateZ(-1px) scale(2);*/
+
+}
+
+
+
