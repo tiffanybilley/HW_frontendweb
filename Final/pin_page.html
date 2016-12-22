@@ -1,72 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Tiffany Billey Portfolio</title>
-	<link rel="icon" type="image/png" href="assets/logo.png" />
-	<link rel="stylesheet" type="text/css" href="css/pin_page.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mystic Goats</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'Times New Roman';
+    }
+    
+    
+    img {
+        width: 100%;
+    }
+  
+    
+    .carousel-inner {
+        height: 640px;
+    }
+    
+    .carousel-indicators li {
+        border: 1px solid gold;
+    }
+    
+    .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+        margin: 0;
+        background-color: gold;
+    }
+    
+    
+    .carousel-caption h3 {
+        font-size: 30px;
+        display: inline-block;
+    }
+    
+    .carousel-caption p {
+        font-family: 'Courier new';
+        font-size: 20px;
+    }
+    
+    .navbar-fixed-top {
+        height: 100px;
+    }
+    
+    .navbar-nav > li > a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 40px;
+    }
+    
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 30px;
+        line-height: 50px;
+        font-family: 'Times New Roman';
+    }
+   
+ 
+    .navbar-inverse {
+        background-color: black;
+        border: none;
+    }
+    
+    .navbar-inverse .navbar-brand {
+        color: gold;
+    }
+    
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+        color: white;
+        background-color: transparent;
+    }
+    
+    .navbar-inverse .navbar-text {
+        color: white;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+    }
+    
+    
+    
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: white;
+    }
+    
+    </style>
 </head>
-<body>
-<nav>
-	<ul>
-	  <li><a href="index.html"><font face="Courier New" size="6"color="gold">Tiffany Billey</a></li>
 
-	  <li style="float:right"><font size="4"><a class="right" href="about.html">About</font></a></li>
-	  <li style="float:right"><font size="4"><a class="right" href="projectspage.html">Portfolio</font></a></li>
-	  
-	</ul>
-</nav>
+<body style="padding-top:100px">
+    <nav class="navbar navbar-fixed-top navbar-inverse brown-shad">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Tiffany Billey</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="projectspage.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>    
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li class="item1 active"></li>
+            <li class="item2"></li>
+            <li class="item3"></li>
+        </ol>
+        <div class="carousel-inner brown-shad" role="listbox">
+            <div class="item active">
+                <img src="assets/pin1" alt="Goats in Tree">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="assets/pin2" alt="Goats in Tree">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="assets/pin3" alt="Goats in Tree">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid ">
+        <center><h1>Pin-agram</h1></center>
+        <center><h3 padding-top="30px">Process</h3></center>
+        <center><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum, velit a pharetra venenatis, dolor nisl convallis massa, posuere vestibulum eros tellus ut nibh. Vestibulum nec laoreet metus. In convallis dictum dapibus. Suspendisse vitae magna cursus, ultrices lectus vel, pharetra est. Nulla facilisi. Cras venenatis maximus metus, quis finibus leo feugiat ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non leo mauris. Duis sem dolor, ullamcorper mollis turpis consequat, elementum convallis lorem. Proin ultricies, nunc sed pretium porta, mi enim tempus metus, nec commodo nibh lacus nec dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi dapibus nulla sed elit malesuada, non aliquam magna mollis.
 
-<div class="section1">
-	<center>
-	<img class="img-circle" src="assets/pinterest.png" align="middle">
-	<img class="img-circle" src="assets/insta.png" align="middle">
-	</center>
-</div>
+Suspendisse ultrices lobortis nisi consectetur molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In dignissim iaculis nibh eget pretium. Praesent at rutrum purus. Quisque tempor tortor vel justo pharetra feugiat. Praesent tempus imperdiet vulputate. Donec porta pellentesque sem a viverra. Maecenas dictum mauris at ligula tempor, in sagittis tortor tempus. Donec non ornare eros. Nunc imperdiet eros id enim cursus volutpat. Quisque vestibulum sapien nec odio varius, nec ultricies mi lacinia. Aliquam semper sed velit ut posuere. Cras nec maximus diam, in accumsan ex. Curabitur nec erat eros. Sed vulputate eu est sit amet cursus. Integer dictum et velit sed tristique.
 
-<div class="section2">
-	<center>
-		<h3><font face="Times New Roman" size="5"color="black">Task</h3>
-		<p><font face="Times New Roman" size="4"color="black" align="middle">The task of this project was to take two interfaces and merge all of aspects that were deemed done well.</p>
-	</center>
-	
-</div>
+Praesent feugiat purus quis nibh eleifend placerat. Pellentesque maximus justo sed ipsum aliquet imperdiet. Aliquam molestie tempus eros. Quisque accumsan fermentum justo, eu sollicitudin velit malesuada quis. Nunc at ultrices lacus. Sed vulputate velit ac enim varius feugiat. Duis quis condimentum diam. Suspendisse non sollicitudin nulla. Maecenas vulputate ipsum dolor, eget consequat libero vestibulum id. Praesent accumsan, ligula non vestibulum sagittis, velit mi elementum urna, vitae dignissim ante lectus vel justo. Suspendisse non dui eu urna posuere iaculis at ac tortor. Etiam tincidunt mauris dui, in fermentum quam sodales vel. Sed dictum erat vel urna rutrum, eu suscipit lectus auctor.</p></center>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#myCarousel").carousel({
+            interval: 5000,
+            pause: "hover"
+        });
+        // PREV NEXT Buttons
+        $(".left").click(function() {
+            $("#myCarousel").carousel("prev");
+        });
+        $(".right").click(function() {
+            $("#myCarousel").carousel("next");
+        });
 
-<div class="section3">
-	<center>
-	<img src="assets/pin1.png" align="middle" height="300" width="300">
-	</center>
-</div>
-
-<div class="section3">
-	<center>
-	<p><font face="Times New Roman" size="4"color="black" align="middle">Phasellus consequat sagittis justo eu tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget ante malesuada magna vehicula posuere. Sed malesuada mi finibus tortor dictum dignissim. Etiam egestas, sapien sit amet bibendum fermentum, metus lectus consequat tellus, nec lobortis lectus mauris sed felis. Sed tempus lectus non velit faucibus, sit amet faucibus orci interdum. Proin eu nibh eget est feugiat commodo. Praesent accumsan at diam vel cursus. Cras tempus viverra placerat.</p>
-	</center>
-</div>
-
-<div class="section4">
-	<center>
-	<img src="assets/pin2.png" align="middle" height="300" width="300">
-	</center>
-</div>
-
-<div class="section4">
-	<center>
-	<p><font face="Times New Roman" size="4"color="black" align="middle">Phasellus consequat sagittis justo eu tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget ante malesuada magna vehicula posuere. Sed malesuada mi finibus tortor dictum dignissim. Etiam egestas, sapien sit amet bibendum fermentum, metus lectus consequat tellus, nec lobortis lectus mauris sed felis. Sed tempus lectus non velit faucibus, sit amet faucibus orci interdum. Proin eu nibh eget est feugiat commodo. Praesent accumsan at diam vel cursus. Cras tempus viverra placerat.</p>
-	</center>
-</div>
-
-<div class="section5">
-	<center>
-	<img src="assets/pin3.png" align="middle" height="300" width="300">
-	</center>
-</div>
-
-<div class="section5">
-	<center>
-	<p><font face="Times New Roman" size="4"color="black" align="middle">Phasellus consequat sagittis justo eu tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget ante malesuada magna vehicula posuere. Sed malesuada mi finibus tortor dictum dignissim. Etiam egestas, sapien sit amet bibendum fermentum, metus lectus consequat tellus, nec lobortis lectus mauris sed felis. Sed tempus lectus non velit faucibus, sit amet faucibus orci interdum. Proin eu nibh eget est feugiat commodo. Praesent accumsan at diam vel cursus. Cras tempus viverra placerat.</p>
-	</center>
-</div>
-
-
+        // Enable Carousel Indicators
+        $(".item1").click(function() {
+            $("#myCarousel").carousel(0);
+        });
+        $(".item2").click(function() {
+            $("#myCarousel").carousel(1);
+        });
+        $(".item3").click(function() {
+            $("#myCarousel").carousel(2);
+        });
+    });
+    </script>
 </body>
+
 </html>
